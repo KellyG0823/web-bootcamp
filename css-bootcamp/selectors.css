@@ -1,0 +1,41 @@
+/* element */
+li {
+
+}
+
+/* class */
+.hello {
+
+}
+
+/* id */
+#name {
+
+}
+
+/* star */
+
+* {
+    /* applies to every element on the page, not often used */
+}
+/* Descendant Selector */
+
+li a {
+    /* Selects everything that is an anchor tag in an li, something that is a descendant of antoher tag */
+}
+
+/* Adjacent Selector */
+
+h4 + ul {
+    /* selects all ul that are just after the h4, adjacent to it, not a descendant of */
+}
+
+/* Attribute Selector */
+ input[type="checkbox"]
+ a[href="http://www.google.com"] /*Selects every anchor tag with href of google.com */
+
+/* nth of type */
+
+ul:nth-of-type(3){
+    /* only selects one set of ul */
+}

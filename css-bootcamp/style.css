@@ -1,0 +1,67 @@
+/* h1 {  */
+    /* Use color picker for pre-programmed 6 digit numbers online */
+    /* color: #FF8000; */
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: solid; */
+/* 
+    border: 2px solid rgb(255, 100, 50);
+}
+
+li {
+    color: rgb(0,255,0);
+}
+
+h4 {  */
+    /* the a part makes the color lighter or paler */
+    /* color: rgba(134, 243, 188, 0.8);
+    background: rgb(255, 100, 50);
+}
+
+body {
+    background: url(https://cdn2.outdoorphotographer.com/2018/10/trzoniec-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+body {
+    border: 10px solid grey;
+    max-width: 800px;
+    width: 70%;
+    margin: 10px auto;
+    padding: 30px;
+}
+
+h3 {
+    font-family: 'Shadows Into Light';
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #a0c1c9;
+
+}
+h1 {
+    font-family: 'Shadows Into Light';
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+p, 
+.first, 
+.second, 
+.third,
+.fourth
+{
+    font-family:'Shadows Into Light';
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.first {
+    border-left: 5px solid #9e8f8f;
+    padding-left: 10px;
+}
+
+.third {
+    border-bottom: 2px solid #a0c1c9;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+}
