@@ -1,0 +1,40 @@
+h1 {
+    margin-left: 50px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #f1f1f1;
+    width: 30%;
+    padding-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+}
+
+img {
+    height: 100%;
+}
+
+.img {
+    flex: 1;
+    padding: 10px;
+}
+
+@media (min-width: 1310px) {
+    .container {
+        margin-left: auto;
+    }
+    .img {
+        flex: 0;
+    }
+    .img9 {
+        margin: auto;
+    }
+}
+
+@media (min-width: 1630px) {
+    .img9 {
+        margin: 0;
+    }
+}
